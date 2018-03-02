@@ -106,7 +106,7 @@ head {
 }
 .logo-nav {
     width: 10%;
-    margin-left: 30px;t
+    margin-left: 30px;
 }
 /*end of navegation bar*/
 /*Banner*/
@@ -155,11 +155,11 @@ header{
 }
 .header-subtitle {
     position: absolute;
+    width: 100%;
     font-style: oblique;
     bottom: 500px;
     color: white;
     z-index: 2;
-    left: 500px;
     font-size: 40px;
 }
 /*End of Banner*/
@@ -173,6 +173,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     background-size: contain;
+    margin: 0px;
+    padding: 0px;
 }
 .mens {
     background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/mens-category.jpg) no-repeat center;
@@ -185,6 +187,7 @@ header{
     margin-top: 0px;
     margin-bottom: 0.25%;
     margin-left: 0px;
+    color: white;
 }
 .trends {
     background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/trends-category.jpg) no-repeat center;
@@ -197,6 +200,7 @@ header{
     margin-top: 0px;
     margin-bottom: 0.25%;
     margin-left: 0.25%;
+    color: white;
 }
 .glasses {
     background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/glasses-category.jpg) no-repeat center;
@@ -209,6 +213,7 @@ header{
     margin-top: 0px;
     margin-bottom: 0.25%;
     margin-left: 0.25%;
+    color: white;
 }
 .sale {
     background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/sale-category.jpg) no-repeat center;
@@ -221,6 +226,7 @@ header{
     margin-top: 0.25%;
     margin-bottom: 0px;
     margin-left: 0px;
+    color: white;
 }
 .bags {
     background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/bags-category.jpg) no-repeat center;
@@ -233,6 +239,7 @@ header{
     margin-top: 0.25%;
     margin-bottom: 0px;
     margin-left: 0.25%;
+    color: white;
 }
 .women {
     background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/womens-category.jpg) no-repeat center;
@@ -245,7 +252,9 @@ header{
     margin-top: 0.25%;
     margin-bottom: 0px;
     margin-left: 0.25%;
+    color: white;
 }
+ 
 /*end of products Bar*/
 /*space between images*/
 .mid_page {
@@ -267,20 +276,27 @@ header{
 /*Products with price*/
 .sales {
     width: 100%;
-    height: 884px;
+    height: 600px;
     color: red;
     font-size: 16px;
     font-weight: bold;
-    display: inline-block;
+    position: relative;
     text-align: center;
-    align-items: center;
+
 }
 .sales ul {
-    display: inline-block;
-}
-.sales li {
-    height: 100%;
     width: 360px;
+    margin: 0px;
+    position: absolute;
+    display: block;
+    flex-wrap: wrap;
+}
+.sales ul li {
+    height: 600px;
+    width: 100%;
+    margin:0px;
+    position: absolute;
+    text-align: center;
 }
 /*End of Products with price*/
 /*Sign up div*/
@@ -408,3 +424,131 @@ footer {
     color: grey
 }
 /*end of Footer*/
+
+   /* For phone */
+   @media only screen and (max-width: 425px) {
+    .products {
+        width: 100%;
+        font-style: italic;
+        font-size: 30px;
+        color: black;
+        height: 845px;
+        display: flex;
+        flex-wrap: wrap;
+        background-size: contain;
+}
+    .mens {
+        background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/mens-category.jpg) no-repeat center;
+        width: 99.75%;
+        height: 24.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.25%;
+        margin-top: 0px;
+        margin-bottom: 0.25%;
+        margin-left: 0px;
+        color: white;
+    }
+    .trends {
+        background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/trends-category.jpg) no-repeat center;
+        width: 49.75%;
+        height: 24.75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.25%;
+        margin-top: 0.25%;
+        margin-bottom: 0.25%;
+        margin-left: 0px;
+        color: white;
+    }
+    .glasses {
+        background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/glasses-category.jpg) no-repeat center;
+        width: 49.75%;
+        height: 24.75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 0.25%;
+        margin-bottom: 0.25%;
+        margin-left: 0.25%;
+    }
+    .sale {
+        background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/sale-category.jpg) no-repeat center;
+        width: 49.75%;
+        height: 24.75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.25%;
+        margin-top: 0.25%;
+        margin-bottom: 0.25%;
+        margin-left: 0px;
+        color: white;
+    }
+    .bags {
+        background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/bags-category.jpg) no-repeat center;
+        width: 49.75%;
+        height: 24.75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 0.25%;
+        margin-bottom: 0.25%;
+        margin-left: 0.25%;
+        color: white;
+    }
+    .women {
+        background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/womens-category.jpg) no-repeat center;
+        width: 99.75%;
+        height: 24.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 0.25%;
+        margin-bottom: 0px;
+        margin-left: 0.25%;
+        color: white;
+    }
+    /* Button */
+    .subscribe {
+        width: 90%;
+        height: 80%; 
+        position: relative;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .button {
+        position: relative;
+        width: 100%;
+        height:50px;
+        top: 70%;
+        padding: none;
+        border: none;
+    }
+    .button input {
+        width: 100%;
+        border: none;
+        height: 30px;
+        border-radius: 35px;
+        position: absolute;
+        float: left;
+        text-align: left;
+    }
+    .button .s_button {
+        position: relative;
+        float: right;
+    }
+    /* end of button */
+}
+    /* For phone: */
+
+    /* For table */
+   @media only screen and (max-width: 768px) {
+    
+}
