@@ -265,24 +265,34 @@ header{
     font-style: italic;
 }
 /*end of space between images*/
+/* Info before text with price */
+.center_text-2 {
+    font-size: 40px;
+    font-style: italic;
+    color: #2d2d2d;
+    text-align: center;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+/* End of info */
 /*Products with price*/
 .sales {
     width: 100%;
-    height: 400px;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
+    height: 700px;
+    color: #969696;
 }
 .sales ul {
     height: 100%;
-    width: 1920px;
-    position: absolute;
+    width: 100%;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
 }
 .sales ul id {
+    width: 320px;
     float: left;
+}
+.description {
+    color:#e2574c;
 }
 /*End of Products with price*/
 /*Sign up div*/
@@ -372,7 +382,7 @@ header{
 /*Footer*/
 footer {
     display:flex;
-    background-color: rgba(128, 128, 128, 0.664);
+    background-color: #242424;
     width: 100%;
     height: 300px;
     position: relative;
