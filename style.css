@@ -47,28 +47,23 @@ table {
 	border-spacing: 0;
 }
 /*used for importing the types of fonts available*/
-@font-face {
-    font-family: Raleway Light;
-    src: url('transfonter.org-20180215-024443/PlayfairDisplay-Bold.eot') format ('embedded-opentype'), 
-        url('transfonter.org-20180215-024443/PlayfairDisplay-Bold.woff') format('woff'), 
-        url('transfonter.org-20180215-024443/PlayfairDisplay-Bold.ttf') format('truetype'), 
-        url('transfonter.org-20180215-024443/PlayfairDisplay-Bold.svg') format('svg'),
-}
 
 /* TEXT START HERE */
-html {
-    font-size: 16px;
-}
 body {
-    font-size: 16px;
     min-width: 300px;
     color: #2d2d2d;
     margin: 0px;
     padding: 0px;
     border: 0px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #2d2d2d;
 }
 head {
     position: relative;
+}
+h2 {
+    font-family: 'Playfair Display';
 }
 /*navegation bar*/
 .navegation {
@@ -257,18 +252,16 @@ header{
 /*end of products Bar*/
 /*space between images*/
 .mid_page {
-    width: 100%;
-    height: 300px;
+    max-width: 720px;
+    height: 70px;
     font-size: 20px;
     position: relative;
     text-align: center;
-    align-content: center;
+    padding: 30px 0px;
 }
 .center_text {
-    width: 50%;
     font-size: 15px;
     position: absolute;
-    left: 25%;
     font-style: italic;
 }
 /*end of space between images*/
@@ -346,17 +339,19 @@ header{
     border: none;
 }
 .button input {
-    width: 400px;
+    width: 359px;
     border: none;
     height: 30px;
     border-radius: 35px;
     position: absolute;
-    float: left;
-    text-align: left;
+    padding: 2px 10px;
+    padding-right: 68px;
 }
 .button .s_button {
     position: relative;
     float: right;
+    right: -74px;
+    top: 2px;
 }
 /* not wworking, should move e-mail text to left */
 .border input [type="email"] {
