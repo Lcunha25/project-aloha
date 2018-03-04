@@ -253,6 +253,7 @@ header{
 /*space between images*/
 .mid_page {
     max-width: 720px;
+    margin: 0px 360px 0px 360px;
     height: 70px;
     font-size: 20px;
     position: relative;
@@ -284,11 +285,13 @@ header{
 }
 .sales ul {
     height: 100%;
-    width: 100%;
+    max-width: 1240px;
+    padding: 0px 100px 0px 100px;
     text-align: center;
 }
 .sales ul id {
     width: 320px;
+    height: 450px;
     float: left;
 }
 .description {
@@ -512,6 +515,14 @@ footer {
         margin-left: 0.25%;
         color: white;
     }
+    /* Sales */
+    .sales ul {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    /* End of sales section */
     /* Button */
     .subscribe {
         width: 90%;
