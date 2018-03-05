@@ -163,7 +163,7 @@ header{
     font-style: italic;
     font-size: 30px;
     color: black;
-    height: 845px;
+    height: 740px;
     display: flex;
     flex-wrap: wrap;
     background-size: contain;
@@ -371,7 +371,7 @@ header{
     padding-left: 10px;
 }
 .s_button {
-    background-color: pink;
+    background-color: #e2574c;
     padding: none;
     margin: none;
     height: 30px;
@@ -379,7 +379,7 @@ header{
     overflow: visible;
 }
 .s_button:hover {
-    background-color: red;
+    background-color: #b64036;
 }
 /*End of Sign up div*/
 /*Footer*/
