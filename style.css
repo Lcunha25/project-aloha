@@ -448,7 +448,7 @@ footer {
     margin: 0px;
     right: 0px;
 }
-.fa-ul ul {
+.fa-ul .ul {
     height: 60%;
     margin: 60px;
     position: absolute;
@@ -458,12 +458,25 @@ footer {
     justify-content: center;
     right: 0px;
 }
+.ul i {
+    min-width: 25px;
+}
 .fab fa-facebook-f {
     content:"f39e";
 }
 .fab fa-twitter {
     content: "f099";
 }
+.fab fa-instagram {
+    content: "f16d";
+}
+.fab fa-pinterest {
+    content: "f0d2";
+}
+.fab fa-google-plus-g {
+    content: "f0d5";
+}
+
 .c-white {
     color: white;
 }
