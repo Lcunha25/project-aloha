@@ -48,6 +48,9 @@ table {
 }
 /*used for importing the types of fonts available*/
 
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+
 /* TEXT START HERE */
 body {
     min-width: 300px;
@@ -105,7 +108,7 @@ h2 {
 /*end of navegation bar*/
 /*Banner*/
 header{
-    height: 845px;
+    height: 550px;
     width: 100%;
     position: relative;
     flex-direction: row;
@@ -131,7 +134,7 @@ header{
     background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/banner-girl.png) no-repeat center;
     background-size: contain;
     width: 100%;
-    height: 884px;
+    height: 550px;
     z-index: 1;
     position: absolute;
     align-content: bottom;
@@ -151,7 +154,7 @@ header{
     position: absolute;
     width: 100%;
     font-style: oblique;
-    bottom: 500px;
+    top: 40%;
     color: white;
     z-index: 2;
     font-size: 40px;
@@ -283,19 +286,27 @@ header{
     height: 700px;
     color: #969696;
 }
-.sales ul {
-    height: 100%;
+.sales .ul {
+    height: 540px;
     max-width: 1240px;
     padding: 0px 100px 0px 100px;
     text-align: center;
 }
-.sales ul id {
+.container {
+    height: 540px;
+}
+.sales .ul id {
     width: 320px;
     height: 450px;
     float: left;
 }
+.space {
+    padding: 0px 0px 10px 0px;
+}
 .description {
     color:#e2574c;
+    padding: 0px 0px 20px 0px;
+    font-size: 22px;
 }
 /*End of Products with price*/
 /*Sign up div*/
@@ -346,7 +357,7 @@ header{
 .button {
     position: relative;
     width: 400px;
-    height:50px;
+    height:65px;
     top: 70%;
     padding: none;
     border: none;
@@ -354,17 +365,19 @@ header{
 .button input {
     width: 359px;
     border: none;
-    height: 30px;
+    height: 40px;
     border-radius: 35px;
     position: absolute;
     padding: 2px 10px;
-    padding-right: 68px;
+    padding-right: 101px;
 }
 .button .s_button {
     position: relative;
     float: right;
-    right: -74px;
+    right: -64px;
     top: 2px;
+    height: 40px;
+    width: 100px;
 }
 /* not wworking, should move e-mail text to left */
 .border input [type="email"] {
