@@ -124,7 +124,7 @@ header{
     border: 0px;
 }
 .banner {
-    background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/flower-bkgd.jpg) no-repeat center;
+    background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/flowers.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -133,7 +133,7 @@ header{
     -webkit-background-size: cover;
 }
 .girl {
-    background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/banner-girl.png) no-repeat center;
+    background: url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/girl.png) no-repeat center;
     background-size: contain;
     width: 100%;
     height: 550px;
@@ -276,6 +276,7 @@ header{
 .center_text {
     font-size: 20px;
     font-family: 'Raleway';
+    line-height: 30px;
 }
 /*end of space between images*/
 /* Info before text with price */
@@ -336,7 +337,7 @@ header{
     justify-content: center;
 }
 .waves {
-    background: url("/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/wave-bkgd.jpg") no-repeat center bottom;
+    background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)), url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/wave-bkgd.jpg) no-repeat center;
     width: 100%;
     height: 450px;
     position: absolute;
@@ -361,11 +362,12 @@ header{
 .text {
     position: absolute;
     top: 50%;
+    width: 100%;
     color: white;
     font-family: 'Raleway';
     text-align: center;
     font-size: 20px;
-    width: 100%;
+    line-height: 30px;
 }
 .subscribe button {
     position: absolute;
@@ -375,7 +377,7 @@ header{
     position: relative;
     width: 461px;
     height:65px;
-    top: 70%;
+    top: 80%;
     padding: none;
     border: none;
 }
@@ -487,6 +489,49 @@ footer {
 
    /* For phone */
    @media only screen and (max-width: 425px) {
+    .navegation {
+        height: 100px;
+        width: 100%;
+        position: relative;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+    }
+    .navegation ul {
+        width:80%;
+    }
+    .navegation li a {
+        color: #e2574c;
+        text-decoration: none;
+    }
+    .navegation li {
+        display:inline-block;
+        padding: 20px;
+    }
+    
+    .cart {
+        position:absolute;
+        width: 10%;
+        right:5px;
+        align-items: center;
+        justify-content: center;
+    }
+    .clicl-nav {
+        margin: 0 10px;
+        width: 75%;
+        flex-grow:4;
+        display: inline-flex;
+        justify-content: space-between;
+        bottom: 0px;
+    }
+    .logo-nav {
+        position: absolute;
+        width: 90px;
+        top: -28px;
+        margin: 0px;
+    }
+    /* Products category */
     #products {
         width: 100%;
         font-style: italic;
@@ -591,26 +636,33 @@ footer {
         align-content: center;
         justify-content: center;
     }
+    .subscribe button {
+        position: absolute;
+        align-content: center;
+    }
     .button {
         position: relative;
-        width: 100%;
-        height:50px;
-        top: 70%;
+        width: 461px;
+        height:65px;
+        top: 100%;
         padding: none;
         border: none;
     }
     .button input {
-        width: 100%;
+        width: 258px;
         border: none;
-        height: 30px;
+        height: 40px;
         border-radius: 35px;
         position: absolute;
-        float: left;
-        text-align: left;
+        padding: 2px 40px;    
     }
     .button .s_button {
         position: relative;
         float: right;
+        right: 4px;
+        top: 2px;
+        height: 40px;
+        width: 100px;
     }
     #mid_page {
         margin: 0px;
