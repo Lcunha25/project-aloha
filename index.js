@@ -12,15 +12,15 @@ $('.clic-nav').ready(function() {
 
 // FLickity automatically arranging the sales bar
 
-$('.subscribe').ready(function(email_c) {
-    $('.s_button').click(function() {
-    var email_c = $('button_t').val();
+$('.subscribe').ready(function() {
+    $('.s_button').click(function(event) {
+    event.preventDefault();
+    var email_c = $('.button_t').val();
     if (validateEmail(email_c)) {
     alert('Thanks for subscribing!');
     }
     else {
     alert('Please Enter A Valid E-Mail');
-    email_c.preventDefault();
     }
     });
 });
