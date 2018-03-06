@@ -14,7 +14,7 @@
 ###The website uses 
 
 #Fonts
-###we pull different types of fonts from transfonter.
+###we pull different types of fonts from transfonter and google fonts.
 
 #Structure
     index.html - //this folder contains all the text
