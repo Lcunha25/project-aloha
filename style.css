@@ -488,7 +488,7 @@ footer {
 /*end of Footer*/
 
    /* For phone */
-   @media only screen and (max-width: 425px) {
+   @media only screen and (max-width: 420px) {
     .navegation {
         height: 100px;
         width: 100%;
@@ -656,7 +656,7 @@ footer {
         height: 40px;
         border-radius: 35px;
         position: absolute;
-        padding: 2px 40px;    
+        padding: 2px 62px;   
     }
     .button .s_button {
         position: relative;
@@ -673,10 +673,54 @@ footer {
         max-width: 375px;
     }
     /* end of button */
+    .fa-ul .ul {
+        display: inline-flex;
+        bottom: -128px;
+    }
+    .fa-ul .ul span {
+        visibility: hidden;
+    }   
 }
     /* For phone: */
 
     /* For table */
-   @media only screen and (max-width: 768px) {
-    
+   @media only screen and (max-width: 600px) {
+    #mid_page {
+        position: relative;
+        height: 150px;
+        width:100%;
+        margin: 0px;
+    }
+    .centered {
+        position: absolute;
+        height: 140px;
+        max-width: 720px;
+        align-items: center;
+        text-align: center;
+    }
+    .center_title {
+        padding: 0px 0px 25px 0px;
+        font-size: 30px;
+    }
+    .center_text {
+        font-size: 20px;
+        font-family: 'Raleway';
+        line-height: 30px;
+    }
+    .button input {
+        width: 258px;
+        border: none;
+        height: 40px;
+        border-radius: 35px;
+        position: absolute;
+        padding: 2px 20px;
+    }
+    .button {
+        position: relative;
+        width: 461px;
+        height: 65px;
+        top: 95%;
+        padding: none;
+        border: none;
+    }
 }
