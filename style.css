@@ -176,7 +176,7 @@ header{
     padding: 0px;
 }
 .mens {
-    background: url(project-01/images/mens-category.jpg) no-repeat center;
+    background: url("project-01/images/mens-category.jpg") no-repeat center;
     width: 49.75%;
     height: 49.75%;
     display: flex;
@@ -189,7 +189,7 @@ header{
     color: white;
 }
 .trends {
-    background: url(project-01/images/trends-category.jpg) no-repeat center;
+    background: url("project-01/images/trends-category.jpg") no-repeat center;
     width: 24.5%;
     height: 49.75%;
     display: flex;
@@ -500,6 +500,10 @@ footer {
     top: 5px;
     width: auto;
     z-index: 100000; /* above all content */
+ }
+
+#prducts[tabindex="-1"]:focus {
+    outline: 0;
  }
 /*end of Footer*/
 
