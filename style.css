@@ -176,7 +176,7 @@ header{
     padding: 0px;
 }
 .mens {
-    background: url(/project-01/images/mens-category.jpg) no-repeat center;
+    background: url(project-01/images/mens-category.jpg) no-repeat center;
     width: 49.75%;
     height: 49.75%;
     display: flex;
@@ -189,7 +189,7 @@ header{
     color: white;
 }
 .trends {
-    background: url(/project-01/images/trends-category.jpg) no-repeat center;
+    background: url(project-01/images/trends-category.jpg) no-repeat center;
     width: 24.5%;
     height: 49.75%;
     display: flex;
@@ -202,7 +202,7 @@ header{
     color: white;
 }
 .glasses {
-    background: url(/project-01/images/glasses-category.jpg) no-repeat center;
+    background: url(project-01/images/glasses-category.jpg) no-repeat center;
     width: 24.75%;
     height: 49.75%;
     display: flex;
@@ -215,7 +215,7 @@ header{
     color: white;
 }
 .sale {
-    background: url(/project-01/images/sale-category.jpg) no-repeat center;
+    background: url(project-01/images/sale-category.jpg) no-repeat center;
     width: 24.75%;
     height: 49.45%;
     display: flex;
@@ -228,7 +228,7 @@ header{
     color: white;
 }
 .bags {
-    background: url(/project-01/images/bags-category.jpg) no-repeat center;
+    background: url(project-01/images/bags-category.jpg) no-repeat center;
     width: 24.5%;
     height: 49.45%;
     display: flex;
@@ -241,7 +241,7 @@ header{
     color: white;
 }
 .women {
-    background: url(/project-01/images/womens-category.jpg) no-repeat center;
+    background: url(project-01/images/womens-category.jpg) no-repeat center;
     width: 49.75%;
     height: 49.45%;
     display: flex;
