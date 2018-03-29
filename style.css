@@ -47,9 +47,9 @@ table {
 	border-spacing: 0;
 }
 /*used for importing the types of fonts available*/
-
+/* 
 font-family: 'Playfair Display', serif;
-font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif; */
 
 /* TEXT START HERE */
 body {
@@ -81,7 +81,7 @@ h2 {
     width:80%;
 }
 .navegation li a {
-    color: #e2574c;
+    color: #db3a26;
     text-decoration: none;
 }
 .navegation li {
@@ -106,6 +106,10 @@ h2 {
 .logo-nav {
     width: 10%;
     margin-left: 30px;
+}
+
+.clic-nav{
+    text-transform: uppercase;    
 }
 /*end of navegation bar*/
 /*Banner*/
@@ -319,14 +323,25 @@ header{
 }
 .space {
     padding: 0px 0px 10px 0px;
+    color: #767676;
 }
 .description {
-    color:#e2574c;
+    color:#db3a26;
     padding: 0px 0px 20px 0px;
     font-size: 22px;
 }
+.price {
+    color: #767676;
+}
 /*End of Products with price*/
 /*Sign up div*/
+
+.text {
+    background-color: #767676;
+    color: #ffffff;
+
+}
+
 #sign_up {
     width: 100%;
     height: 450px;
@@ -337,10 +352,10 @@ header{
     justify-content: center;
 }
 .waves {
-    background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)), url(/Users/lucaspereiradacunha/Desktop/Aloha-Project/project-01/images/wave-bkgd.jpg) no-repeat center;
     width: 100%;
     height: 450px;
     position: absolute;
+    background-color: #767676;
 }
 .subscribe {
     width: 50%;
@@ -402,7 +417,7 @@ header{
     padding-left: 25px;
 }
 .s_button {
-    background-color: #e2574c;
+    background-color: #db3a26;
     padding: none;
     margin: none;
     height: 30px;
@@ -483,7 +498,7 @@ footer {
     color: white;
 }
 .c-grey {
-    color: grey
+    color: #8a8a8a;
 }
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
@@ -526,7 +541,7 @@ footer {
         bottom: 0px;
     }
     .navegation li a {
-        color: #e2574c;
+        color: #db3a26;
         text-decoration: none;
     }
     .navegation li {
@@ -546,6 +561,7 @@ footer {
         display: inline-flex;
         justify-content: space-between;
         bottom: 0px;
+        text-transform: uppercase;
     }
     .logo-nav {
         position: absolute;
@@ -744,3 +760,11 @@ footer {
         border: none;
     }
 }
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+ }
