@@ -4,50 +4,56 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aloha Apparel Co.</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="dist/css/style.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300" rel="stylesheet">
     <link rel="stylesheet" href="/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
-    <script src="jquery-3.3.1.min.js"></script>
-    <script src="index.js"></script>
-    <script src="tota11y.min.js"></script>
+    <script src="dist/js/jquery-3.3.1.min.js"></script>
+    <script src="dist/js/main.min.js"></script>
+    <script src="dist/js/tota11y.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <!-- This is the image of the Logo-->
 </head>
 <body>
     <a class="screen-reader-text" href="#products">Skip to content</a>
-    <div class= "navegation">
-            <img class="logo-nav" src="project-01/images/aloha-logo.svg" width="100" height="100">
+    <header  class= "navegation">
+        <div class="page-logo">
+            <img src="project-01/images/aloha-logo.svg">
+        </div>
+        <div class=page-list>
             <ul class="clic-nav">
             <li><a href="#mid_page" class="slide_section">ABOUT</a></li>
             <li><a href="#products" class="slide_section">SHOP</a></li>
             <li><a href="#sales" class="slide_section">FEATURES</a></li>
             <li><a href="#sign_up" class="slide_section">UPDATES</a></li>
             </ul>
-            <img class="cart" src="project-01/images/cart-icon.svg" width="50" height="50">
         </div>
-    <header>
-            <div class="banner"></div>
-            <p class="header-subtitle">New Collection</p>
-            <p class="header-title">Spring Summer 2018</p>
-            <div class= "girl"></div>
+        <div class="cart-img">
+            <img src="project-01/images/cart-icon.svg">
+        </div>
     </header>
+    <section class="banner-wrapper">
+            <div class="banner"></div>
+            <p class="page-subtitle">New Collection</p>
+            <p class="page-title">Spring Summer 2018</p>
+            <div class= "girl"></div>
+    </section>
     <section id="mid_page">
         <div class="centered">
         <h2 class="center_title"><span class="italic">Hand-Crafted</span><span class="bold">Styles</span></h2>
         <p class="center_text">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
         </div>
     </section>
-    <section>
-    <ul id="products" tabindex="-1">
-        <li class="mens">MEN'S</li>
-        <li class="trends">TRENDS</li>
-        <li class="glasses">GLASSES</li>
-        <li class="sale">SALE</li>
-        <li class="bags">BAGS</li>
-        <li class="women">WOMEN'S</li>
-    </ul>
-    </section>
+    <div class="product-sections">
+        <ul id="products" tabindex="-1">
+            <li class="mens">MEN'S</li>
+            <li class="trends">TRENDS</li>
+            <li class="glasses">GLASSES</li>
+            <li class="sale">SALE</li>
+            <li class="bags">BAGS</li>
+            <li class="women">WOMEN'S</li>
+        </ul>
+    </div>
     <section id="sales">
     <h2 class="center_text-2"><span class="italic">Most-Loved</span><span class="bold">Products</span></h2>
     <div class="ul" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
@@ -102,15 +108,16 @@
     </div>
     </section>    
     <section id="sign_up">
-    <p class="waves"></p>
-    <div class="subscribe">
-        <h2 class="s_text">Sign-up for Updates</h2>
-        <p class="text">Stay updated on our last latest products releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time</p>
-            <form class="button">
-            <input class="button_t"type="email" placeholder="Your Email">
-            <button type="submit" class="s_button">Subscribe</button>
-            </form>
-    </div>
+        <div class="subscribe">
+            <h2 class="s_text">Sign-up for Updates</h2>
+            <p class="text">Stay updated on our last latest products releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time</p>
+                <div class="button-wrapper">
+                    <form class="button">
+                        <input class="button_t"type="email" placeholder="Your Email">
+                        <button type="submit" class="s_button">Subscribe</button>
+                    </form>
+                </div>
+        </div>
     </section>
 <footer>
         <div class="left-footer">    

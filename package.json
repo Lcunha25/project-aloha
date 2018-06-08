@@ -1,0 +1,34 @@
+{
+  "name": "aloha-project",
+  "version": "1.0.0",
+  "description": "# About products tab ###on Products tab I have saved the configuration to be responsive. For that I had to use porcentages of page for each atribute and define the borders as margins as well.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcunha25/project-aloha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lcunha25/project-aloha/issues"
+  },
+  "homepage": "https://github.com/Lcunha25/project-aloha#readme",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "es2015": "0.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-eslint": "^4.0.2",
+    "gulp-prettyerror": "^1.2.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
