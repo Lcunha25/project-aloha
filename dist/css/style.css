@@ -45,6 +45,175 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Regular.eot");
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Regular.woff2") format("woff2"), url("../../fonts/Playfair_Display/PlayfairDisplay-Regular.woff") format("woff"), url("../../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Black.eot");
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Black.woff2") format("woff2"), url("../../fonts/Playfair_Display/PlayfairDisplay-Black.woff") format("woff"), url("../../fonts/Playfair_Display/PlayfairDisplay-Black.ttf") format("truetype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Black.svg#PlayfairDisplay-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Italic.eot");
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Italic.woff2") format("woff2"), url("../../fonts/Playfair_Display/PlayfairDisplay-Italic.woff") format("woff"), url("../../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format("truetype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.eot");
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("../../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.woff") format("woff"), url("../../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format("truetype"), url("../../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Bold.eot");
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Bold.woff2") format("woff2"), url("../../fonts/Playfair_Display/PlayfairDisplay-Bold.woff") format("woff"), url("../../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format("truetype"), url("../../fonts/Playfair_Display/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.eot");
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.woff2") format("woff2"), url("../../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.woff") format("woff"), url("../../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf") format("truetype"), url("../../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.svg#PlayfairDisplay-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-ExtraBold.eot");
+  src: url("../../fonts/Raleway/Raleway-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"), url("../../fonts/Raleway/Raleway-ExtraBold.svg#Raleway-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-Bold.eot");
+  src: url("../../fonts/Raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-Bold.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-Bold.woff") format("woff"), url("../../fonts/Raleway/Raleway-Bold.svg#Raleway-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-Black.eot");
+  src: url("../../fonts/Raleway/Raleway-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-Black.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-Black.woff") format("woff"), url("../../fonts/Raleway/Raleway-Black.svg#Raleway-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-ExtraBoldItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-ExtraBoldItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-ExtraBoldItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-ExtraBoldItalic.svg#Raleway-ExtraBoldItalic") format("svg");
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-BoldItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-BoldItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-BoldItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-BoldItalic.svg#Raleway-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-Light.eot");
+  src: url("../../fonts/Raleway/Raleway-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-Light.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-Light.woff") format("woff"), url("../../fonts/Raleway/Raleway-Light.svg#Raleway-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-Thin.eot");
+  src: url("../../fonts/Raleway/Raleway-Thin.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-Thin.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-Thin.woff") format("woff"), url("../../fonts/Raleway/Raleway-Thin.svg#Raleway-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-LightItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-LightItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-LightItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-LightItalic.svg#Raleway-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-MediumItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-MediumItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-MediumItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-MediumItalic.svg#Raleway-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-Italic.eot");
+  src: url("../../fonts/Raleway/Raleway-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-Italic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-Italic.woff") format("woff"), url("../../fonts/Raleway/Raleway-Italic.svg#Raleway-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-ThinItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-ThinItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-ThinItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-ThinItalic.svg#Raleway-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-ExtraLightItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-ExtraLightItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-ExtraLightItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-ExtraLightItalic.svg#Raleway-ExtraLightItalic") format("svg");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-ExtraLight.eot");
+  src: url("../../fonts/Raleway/Raleway-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-ExtraLight.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-ExtraLight.woff") format("woff"), url("../../fonts/Raleway/Raleway-ExtraLight.svg#Raleway-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-Medium.eot");
+  src: url("../../fonts/Raleway/Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-Medium.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-Medium.woff") format("woff"), url("../../fonts/Raleway/Raleway-Medium.svg#Raleway-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-SemiBold.eot");
+  src: url("../../fonts/Raleway/Raleway-SemiBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-SemiBold.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-SemiBold.woff") format("woff"), url("../../fonts/Raleway/Raleway-SemiBold.svg#Raleway-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-BlackItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-BlackItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-BlackItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-BlackItalic.svg#Raleway-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-SemiBoldItalic.eot");
+  src: url("../../fonts/Raleway/Raleway-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-SemiBoldItalic.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-SemiBoldItalic.woff") format("woff"), url("../../fonts/Raleway/Raleway-SemiBoldItalic.svg#Raleway-SemiBoldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../../fonts/Raleway/Raleway-Regular.eot");
+  src: url("../../fonts/Raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway/Raleway-Regular.woff2") format("woff2"), url("../../fonts/Raleway/Raleway-Regular.woff") format("woff"), url("../../fonts/Raleway/Raleway-Regular.svg#Raleway-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* TEXT START HERE */
 body {
   min-width: 300px;
@@ -90,9 +259,14 @@ h2 {
 .cart-img {
   grid-column-start: 3; }
   .cart-img img {
-    height: 75%;
+    height: 50%;
     width: 75%;
-    padding: 10px; }
+    padding: 20px 15px 0 15px; }
+  .cart-img .addNumber {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    color: #e2574c; }
 
 /*Banner*/
 .banner-wrapper {
@@ -163,9 +337,7 @@ h2 {
 .centered {
   height: 140px;
   max-width: 720px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 0 auto;
   text-align: center; }
 
 .center_title {
@@ -258,21 +430,27 @@ h2 {
       width: 320px;
       height: 450px;
       float: left; }
+    #sales .ul .container {
+      height: 470px; }
+      #sales .ul .container img {
+        width: 290px; }
+      #sales .ul .container .space {
+        padding: 0px 0px 10px 0px; }
+      #sales .ul .container .description {
+        color: #e2574c;
+        padding: 0px 0px 10px 0px;
+        font-size: 22px; }
+      #sales .ul .container .price {
+        padding: 0 0 5px; }
+      #sales .ul .container button {
+        height: 25px;
+        width: 80px;
+        color: white;
+        background-color: #242424;
+        border-radius: 35px;
+        cursor: pointer; }
   #sales .flickity-slider .container {
     padding: 0 75px; }
-
-.container {
-  height: 470px; }
-  .container img {
-    width: 290px; }
-
-.space {
-  padding: 0px 0px 10px 0px; }
-
-.description {
-  color: #e2574c;
-  padding: 0px 0px 20px 0px;
-  font-size: 22px; }
 
 /*End of Products with price*/
 /*Sign up div*/
@@ -318,7 +496,8 @@ h2 {
       padding-left: 20px;
       border: none;
       height: 40px;
-      border-radius: 35px; }
+      border-radius: 35px;
+      left: 5%; }
       .button-wrapper .button input::-webkit-input-placeholder {
         padding-left: 10%; }
       .button-wrapper .button input:-ms-input-placeholder {
@@ -331,14 +510,15 @@ h2 {
       width: 0;
       padding-right: 10%;
       position: relative;
-      right: 0; }
+      right: 2px;
+      top: 2px; }
       .button-wrapper .button .button-aligner .s_button {
         position: absolute;
-        height: 42px;
-        width: 100px;
+        height: 38px;
+        width: 80px;
         background-color: #e2574c;
         border-radius: 35px;
-        right: 100%; }
+        right: 50%; }
         .button-wrapper .button .button-aligner .s_button:hover {
           background-color: #b64036; }
 
@@ -357,10 +537,13 @@ h2 {
     grid-column-start: 2;
     grid-column-end: 3; }
     .page-list .clic-nav {
-      padding: 0 15%; }
+      padding: 0 20%; }
   .cart-img img {
-    height: 60%;
-    padding: 15px; }
+    height: 50%;
+    padding: 20px 0px 0px 10px; }
+  .cart-img .addNumber {
+    top: 7%;
+    right: 4%; }
   .center_text {
     font-size: 16px; }
   #mid_page {
@@ -386,11 +569,21 @@ h2 {
       grid-column-end: 5;
       margin: .5% 0 0 .5%; }
   /* Sales */
-  #sales ul {
-    height: 100%;
-    width: 100%;
-    padding: 0px;
-    text-align: center; }
+  #sales {
+    width: 80%;
+    margin: 0 auto; }
+    #sales ul {
+      height: 100%;
+      width: 100%;
+      padding: 0px;
+      text-align: center; }
+    #sales .flickity-slider .container {
+      width: 256px;
+      padding: 0 15px; }
+  .container {
+    height: 470px; }
+    .container img {
+      width: 256px; }
   /* End of sales section */
   /* Button */
   .subscribe {
@@ -400,10 +593,10 @@ h2 {
     font-size: 30px; }
   .text {
     font-size: 16px; }
-  .button-wrapper .button .button_t {
-    left: 5%; }
-  .button-wrapper .button .button-aligner .s_button {
-    right: 50%; }
+  .button-wrapper .button {
+    padding: 0 20%; }
+    .button-wrapper .button .button-aligner .s_button {
+      width: 100px; }
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -423,11 +616,7 @@ h2 {
     position: relative; }
   .fa-ul .ul {
     height: 60%;
-    margin: 60px;
     position: absolute;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     right: 0px;
     grid-template-columns: 100% !important;
     margin: 50px; }
@@ -436,9 +625,18 @@ h2 {
 
 /* For desktop */
 @media only screen and (min-width: 1240px) {
-  /* Products category */ }
+  body {
+    max-width: 1240px;
+    margin: 0 auto; }
+  .page-list .clic-nav {
+    padding: 0 30%; }
+  /* Subscribe wrapper */
+  .subscribe {
+    padding: 10% 20%; }
+    .subscribe .text {
+      width: auto;
+      padding: 15px 70px; } }
 
-/* For phone: */
 /*Footer*/
 footer {
   background-color: #242424;

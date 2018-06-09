@@ -4,8 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aloha Apparel Co.</title>
-    <link href="dist/css/style.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300" rel="stylesheet">
+    <link href="./dist/css/style.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
     <script src="./dist/js/jquery-3.3.1.min.min.js"></script>
     <script src="./dist/js/main.min.js"></script>
@@ -18,7 +17,7 @@
     <a class="screen-reader-text" href="#products">Skip to content</a>
     <header  class= "navegation">
         <div class="page-logo">
-            <img src="project-01/images/aloha-logo.svg">
+            <img src="project-01/images/aloha-logo.svg" alt="page logo">
         </div>
         <div class=page-list>
             <ul class="clic-nav">
@@ -29,7 +28,8 @@
             </ul>
         </div>
         <div class="cart-img">
-            <img src="project-01/images/cart-icon.svg">
+            <img src="project-01/images/cart-icon.svg" alt="shop">
+            <span class="addNumber"></span>
         </div>
     </header>
     <section class="banner-wrapper">
@@ -61,49 +61,57 @@
                 <img src="project-01/images/checked-stretch-dress.jpg" alt="stretch-dress">
                 <p class="space">Dresses</p>
                 <p class="description">Checked Strech Dress</p>
-                <p>$129.00</p>
+                <p class="price">$129.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
             <div class="container">
                 <img src="project-01/images/cotton-blue-shirt.jpg" alt="blue-shirt">
                 <p class="space">Shirts</p>
                 <p class="description">Cotton Blue Shirt</p>
-                <p>$89.00</p>
+                <p class="price">$89.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
             <div class="container">
                 <img src="project-01/images/cotton-yellow-tshirt.jpg" alt="yello-shirt">
                 <p class="space">Shirts</p>
                 <p class="description">Cotton Yellow Tshirt</p>
-                <p>$39.00</p>
+                <p class="price">$39.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
             <div class="container">
                 <img src="project-01/images/stretch-knit-dress.jpg" alt="knit-dress">
                 <p class="space">Dresses</p>
                 <p class="description">Stretch Knit Dress</p>
-                <p>$169.00</p>
+                <p class="price">$169.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
             <div class="container">
                 <img src="project-01/images/demin-overall-shorts.jpg" alt="overall-shorts">
                 <p class="space">Shorts</p>
                 <p class="description">Demin Overall Shorts</p>
-                <p>$89.00</p>
+                <p class="price">$89.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
             <div class="container">
                 <img src="project-01/images/blue-silk-dress.jpg" alt="silk-dress">
                 <p class="space">Dresses</p>
                 <p class="description">Blue Silk Dress</p>
-                <p>$119.00</p>
+                <p class="price">$119.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
             <div class="container">
                 <img src="project-01/images/blue-hipster-backpack.jpg" alt="hipster-backpack">
                 <p class="space">Bags</p>
                 <p class="description">Blue Hipster Backpack</p>
-                <p>$69.00</p>
+                <p class="price">$69.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
             <div class="container">
                 <img src="project-01/images/pink-dotted-dress.jpg" alt="Dotted-dress">
                 <p class="space">Dresses</p>
                 <p class="description">Pink Dotted Dress</p>
-                <p>$99.00</p>
+                <p class="price">$99.00</p>
+                <button class="shop-item">Add to Cart</button>
             </div>
         </div>
     </section>    
@@ -113,7 +121,7 @@
             <p class="text">Stay updated on our last latest products releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time</p>
                 <div class="button-wrapper">
                     <form class="button">
-                        <input class="button_t"type="email" placeholder="Your Email">
+                        <input class="button_t" type="email" placeholder="Your Email">
                         <div class="button-aligner"><button type="submit" class="s_button">Subscribe</button></div>
                     </form>
                 </div>
