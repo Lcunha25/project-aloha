@@ -1,3 +1,5 @@
+![](project-01/images/Background-screenshot.png)
+
 # Aloha Project
 ## This is our aloha project for RED academy. It is a mobile-first website built with SCSS, CSS, HTML, Gulp and Javascript (Jquery).
 
