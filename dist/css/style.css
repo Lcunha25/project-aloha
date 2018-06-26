@@ -264,8 +264,8 @@ h2 {
     padding: 20px 15px 0 15px; }
   .cart-img .addNumber {
     position: absolute;
-    top: 5%;
-    right: 10%;
+    top: 2%;
+    right: 12%;
     color: #e2574c; }
 
 /*Banner*/
@@ -432,8 +432,6 @@ h2 {
       float: left; }
     #sales .ul .container {
       height: 470px; }
-      #sales .ul .container img {
-        width: 290px; }
       #sales .ul .container .space {
         padding: 0px 0px 10px 0px; }
       #sales .ul .container .description {
@@ -451,6 +449,9 @@ h2 {
         cursor: pointer; }
   #sales .flickity-slider .container {
     padding: 0 75px; }
+    #sales .flickity-slider .container img {
+      position: relative;
+      width: 100%; }
 
 /*End of Products with price*/
 /*Sign up div*/
@@ -538,12 +539,13 @@ h2 {
     grid-column-end: 3; }
     .page-list .clic-nav {
       padding: 0 20%; }
-  .cart-img img {
-    height: 50%;
-    padding: 20px 0px 0px 10px; }
-  .cart-img .addNumber {
-    top: 7%;
-    right: 4%; }
+  .cart-img {
+    width: 50%; }
+    .cart-img img {
+      height: 50%;
+      padding: 20px 0px 0px 10px; }
+    .cart-img .addNumber {
+      right: 9%; }
   .center_text {
     font-size: 16px; }
   #mid_page {
@@ -580,10 +582,11 @@ h2 {
     #sales .flickity-slider .container {
       width: 256px;
       padding: 0 15px; }
+      #sales .flickity-slider .container img {
+        position: relative;
+        width: 100%; }
   .container {
     height: 470px; }
-    .container img {
-      width: 256px; }
   /* End of sales section */
   /* Button */
   .subscribe {
@@ -626,7 +629,6 @@ h2 {
 /* For desktop */
 @media only screen and (min-width: 1240px) {
   body {
-    max-width: 1240px;
     margin: 0 auto; }
   .page-list .clic-nav {
     padding: 0 30%; }
@@ -635,7 +637,9 @@ h2 {
     padding: 10% 20%; }
     .subscribe .text {
       width: auto;
-      padding: 15px 70px; } }
+      padding: 15px 70px; }
+  .addNumber {
+    right: 10% !important; } }
 
 /*Footer*/
 footer {
